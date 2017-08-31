@@ -1,0 +1,8 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page">
+    <StackLayout class="p-20">
+        <TextField text="{{hours}}"></TextField>
+        <TextField text="{{minutes}}"></TextField>
+        <TextField text="{{seconds}}"></TextField>
+        <Button text="Start timer" tap="startTimer"/>
+    </StackLayout>    
+</Page>
